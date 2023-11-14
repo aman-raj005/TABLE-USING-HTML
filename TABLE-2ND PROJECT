@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAN RAJ</title>
+    <style>
+        table  ,tr ,td ,th {border:2px solid black ;
+                          border-collapse:collapse }
+    td,th {  padding:2px;
+             margin:5px;}
+    table { font-size:20px;
+             text-align:center;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    </style>
+</head>
+<body >
+    <table style="width:100%";>
+        
+        <tr>
+            <td rowspan="3"><b>DAY</b></td>
+            <td colspan="3"><b>SEMINAR</b></td>
+        </tr>
+        
+        <tr>
+            <td colspan="2"><b>SCHEDULE</b></td>
+            <td rowspan="2"><B>TOPIC</B></td>
+        </tr>
+<tr> 
+    <td><b>BEGIN</b></td>
+    <td><B>END</B></td>
+</tr>
+    <td rowspan="2">monday</td>
+    <td rowspan="2">8 A.M</td>
+    <TD rowspan="2">5 p.m</TD>
+    <td>introduction to xml</td>
+</tr>
+<tr>
+    <td>validity : DTP</td>
+</tr>
+<tr>
+    <td rowspan="4">tuesday</td>
+    <td>8 am</td>
+    <td>11 am</td>
+    <td rowspan="2">XPath</td>
+</tr>
+<tr>
+    <td>11 am</td>
+    <td>2 pm</td>
+</tr>
+<tr>
+    <td>11 am</td>
+    <td>2 pm</td>
+    <td rowspan="2">XSL Transformations</td>
+</tr>
+<tr>
+    <td>2 pm</td>
+    <td>5 pm</td>
+   
+</tr>
+<tr>
+    <td>wedensday</td>
+    <td>8 am</td>
+    <td>12 pm</td>
+    <td>XSL FORMATTING Objects</td>
+</tr>
+    </table>
+</body>
+</html>
